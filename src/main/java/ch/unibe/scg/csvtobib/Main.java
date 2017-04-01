@@ -37,7 +37,7 @@ public class Main {
 		// parse command line arguments
 		final CommandLineArguments cla = new CommandLineArguments(Main.class, args);
 		final CommandLineArguments.Argument fileArg = cla.add(
-				"A (IEEE) CSV file to convert to BibTeX.",
+				"The (IEEE) CSV file to convert to BibTeX.",
 				"<file>",
 				"f", "file"
 		);
